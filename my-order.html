@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>    
+	<title>Мой заказ</title>   
+	<meta name="viewport" content="width=device-width initial-scale=1.0" charset="utf-8">   
+	<link rel="stylesheet" href="assets/css/style.css"> 
+	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+<body class="body_light">
+
+	<header>
+		<div class="logo logo_light">
+			<img src="img/logo-3.png">
+		</div>
+		<div class="header__contacts">
+			<div class="header__adress" style="color: #1e252c;">
+				<div><span>Шоу-рум в VIESSMAN</span></div>
+				<div><span>Минск, Богдановича, 153б, инсталляция 205</span></div>
+			</div>
+			<div class="header__number-wrapper">
+				<div class="header__number" style="color: #1e252c;"><img src="img/icons/phonedark.png" class="header__phone-pic"> <span>+375 (29) 669-10-69</span></div>
+			</div>
+		</div>
+
+	</header>
+
+	<section class="client-order">
+		<div class="client-order-title-wrapper">
+			<div class="client-order-title">Мой заказ <span style="color: #9b9b9b;">(0 товаров)</span><img src="img/icons/downfilter.png" class="client-order-config"></div>
+		</div>
+
+		<div class="client-order__content">
+			<div class="client-order__result-wrapper">
+				<div class="client-order__result-items open">
+				<div class="clien-order__result-item">
+					<div class="catalog__item_rows catalog__item_row_order">	
+						<div class="catalog__item-img catalog__item-img_order"><img src="img/catalog-item.png"></div>
+						<div class="catalog__item-name catalog__item-name_rows catalog__item-name_order">
+							<p class="catalog__item-type">AV ресивер</p>
+							<p class="catalog__item-model">Denon AVR-X1500H</p>
+						</div>
+						<div class="items-quantity-wrapper"><div class="plus-item">+</div><div class="items-quantity">1</div><div class="minus-item">-</div></div>
+						<div class="catalog__item-price catalog__item-price_rows"><span style="font-size: 18px">2590 </span>руб./штука</div>
+						<div><img class="delete-item" src="img/icons/delete-item.png"></div>
+					</div>
+				</div>	
+
+				<div class="client-order__result-item">
+					<div class="catalog__item_rows catalog__item_row_order">	
+						<div class="catalog__item-img catalog__item-img_order"><img src="img/catalog-item.png"></div>
+						<div class="catalog__item-name catalog__item-name_rows catalog__item-name_order">
+							<p class="catalog__item-type">AV ресивер</p>
+							<p class="catalog__item-model">Denon AVR-X1500H</p>
+						</div>
+						<div class="items-quantity-wrapper"><div class="plus-item">+</div><div class="items-quantity">1</div><div class="minus-item">-</div></div>
+						<div class="catalog__item-price catalog__item-price_rows"><span style="font-size: 18px">2590 </span>руб./штука</div>
+						<div><img class="delete-item" src="img/icons/delete-item.png"></div>
+					</div>
+				</div>	
+
+				<div class="client-order__result-item">
+					<div class="catalog__item_rows catalog__item_row_order">	
+						<div class="catalog__item-img catalog__item-img_order"><img src="img/catalog-item.png"></div>
+						<div class="catalog__item-name catalog__item-name_rows catalog__item-name_order">
+							<p class="catalog__item-type">AV ресивер</p>
+							<p class="catalog__item-model">Denon AVR-X1500H</p>
+						</div>
+						<div class="items-quantity-wrapper"><div class="plus-item">+</div><div class="items-quantity">1</div><div class="minus-item">-</div></div>
+						<div class="catalog__item-price catalog__item-price_rows"><span style="font-size: 18px">2590 </span>руб./штука</div>
+						<div><img class="delete-item" src="img/icons/delete-item.png"></div>
+					</div>
+				</div>	
+			</div>
+				<div class="client-order__result-price-wrapper">
+					<span><img src="img/icons/trade.png"><span class="price-trade-in">Цена лучше с трейд-ин</span></span><span class="client-order__result-price">Итого: <span class="result-sum">0 <span style="font-size: 14px;">руб.</span></span></span>
+				</div>
+				<div class="client-order__client-message"><div class="client-order-subtitle">Какую аппаратуру Вы можете отдать в зачет?</div><input type="text" name="" placeholder="По возможности укажите марку, модель, год выпуска устройств"><button class="client-order__client-message__btn">Закрыть</button></div>
+			</div>
+
+			<div class="order-form-wrapper">
+				<div class="order-form">
+					<div class="order-form__top">
+						<p>Оплачивать сейчас не нужно.</p>
+						<p>Мы еще свяжемся с Вами для подтверждения заказа.</p>
+					</div>
+					<div class="order-form__content">
+										<div class="client-order-title">Оформление заказа</div>
+					<div class="order__client-number"><div class="client-order-subtitle">Ваш номер телефона: <span style="color: #e2231a;">*</span> <span>(перезвоним подтвердить заказ)</span></div><input type="number" name=""></div>
+					<div class="order__client-mail"><div class="client-order-subtitle">E-mail: <span style="color: #e2231a;">*</span> <span>(вышлем документ с заказанными товарами)</span></div><input type="text" name=""></div>
+	
+					<div class="order__client-name"><div class="client-order-subtitle">Как Вас зовут?</div><input type="text" name=""></div>
+					<div class="order__client-time"><div class="client-order-subtitle">Когда Вам позвонить?</div><input type="number" name=""></div> 
+				
+					<div><button class="client-order__btn"><a href="successful-order.html">Отправить предварительный заказ</a></button></div> 
+				</div>
+			</div>
+			</div>
+
+		</div>
+
+
+
+	</div>
+</section>
+
+
+<footer class="footer-catalog">
+
+	<div class="footer__contacts">
+		<div class="footer__number">
+			<p>+375 (29) 669 10 69</p>
+			<p>8 017 293 39 98 (факс)</p>
+		</div>	
+		<div>
+			<p>ул. Богдановича, д. 153Б, офис 205</p>
+			<p>info@hifiaudio.by</p>
+		</div>
+	</div>
+	<div class="footer__hifi">
+		<p>2018 HiFiAudio.by</p>
+		<p>Акустические системы</p>
+	</div>
+</footer>
+
+	<footer class="footer-catalog_mobile">
+		<div class="footer__item">
+			<p>ул. Богдановича, д. 153Б, офис 205</p>
+			<p>info@hifiaudio.by</p>
+		</div>
+	<div class="footer__item">
+		<p>2018 HiFiAudio.by</p>
+		<p>Акустические системы</p>
+	</div>
+
+	<div class="footer__item">
+		<p>+375 (29) 669 10 69</p>
+		<p>8 017 293 39 98 (факс)</p>
+	</div>
+</footer>
+
+</body>
+</html>

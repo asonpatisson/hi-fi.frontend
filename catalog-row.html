@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<head>    
+	<title>Каталог товаров ряд</title>   
+	<meta name="viewport" content="width=device-width initial-scale=1.0" charset="utf-8">   
+	<link rel="stylesheet" href="assets/css/style.css"> 
+	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+<body class="body_light">
+
+	<header>
+		<div class="logo logo_light">
+			<a href="index.html"><img src="img/logo-3.png"></a>
+		</div>
+		<div class="header__contacts">
+			<div class="header__adress" style="color: #1e252c;">
+				<div><span>Шоу-рум в VIESSMAN</span></div>
+				<div><span>Минск, Богдановича, 153б, инсталляция 205</span></div>
+			</div>
+			<div class="header__number-wrapper">
+				<div class="header__number" style="color: #1e252c;"><img src="img/icons/phonedark.png" class="header__phone-pic"> <span>+375 (29) 669-10-69</span></div>
+			</div>
+		</div>
+		<div class="header__search-wrapper">
+			<div class="header__search" style="color: #1e252c;"><span>ПОИСК</span> <img src="img/icons/searchdark.png"></div>
+		</div>
+		<div class="header__menu-button-wrapper">
+			<div class="header__menu-button" style="color: #1e252c;"><img src="img/icons/burgerdark.png"> <span>МЕНЮ</span></div>
+		</div>
+	</header>
+	<div class="search-page">
+		<div class="blur-bg"></div>
+		<div class="search-line-wrapper">
+			<div class="search-line"><img src="img/icons/searchmain.png"> <input type="text" name="search-sring" placeholder="Введите название, бренд или категорию"><img class="search-page-to-close" src="img/icons/closedark.png"></div>
+		</div>
+	</div>
+
+	<div class="main-menu">
+		<div class="main-menu-to-close"><img src="img/icons/closedark.png"></div>
+		<div class="main-menu__sections main-menu__sections_light">
+			<div style="width: 100px;"></div>
+			<div class="main-menu__section-catalog">
+				<div class="main-menu__section-title main-menu__section-title_light">Каталог</div>
+				<ul class="catalog-list">
+					<li><a href="">Hi-Fi и Hi-End системы</a></li>
+					<li><a href="">AV-мебель</a></li>
+					<li><a href="">Кабели и провода</a></li>
+					<li><a href="">Акустические системы</a></li>
+					<li><a href="">Домашние кинотеатры</a></li>
+					<li><a href="">Аудио-видео мультирум</a></li>
+				</ul>
+			</div>
+			<div class="main-menu__section-solutions">
+				<div class="main-menu__section-title main-menu__section-title_light">Решения</div>
+				<ul class="solutions-list">
+					<li><a href="">Готовые решения</a></li>
+					<li><a href="">Услуги</a></li>
+					<li><a href="">Рассчитать трейд-ин</a></li>
+				</ul>
+			</div>
+			<div class="main-menu__section-about-company">
+				<div class="main-menu__section-title main-menu__section-title_light">Компания</div>
+				<ul class="about-company-list">
+					<li><a href="">О компании</a></li>
+					<li><a href="">Партнерам</a></li>
+					<li><a href="">Блог</a></li>
+				</ul>
+			</div>
+			<div class="main-menu__section-order">
+				<div class="main-menu__section-title main-menu__section-title_light">Мой заказ</div>
+				<div class="order__buttons">
+					<div><button class="order__btn-1"><a href="">Мой заказ(0)</a></button></div>
+					<div><button class="order__btn-2 order__btn-2_light"><a href="">Заказать консультацию</a></button></div>
+				</div>
+				<div class="order__contacts order__contacts_light"><span>+375 29 669-10-69</span><br><span>8 017 293-39-19 (факс)</span><br><span style="color: #1e252c; font-family: Open Sans;">info@hifiaudio.by</span></div>
+				<div class="order__adress order__adress_light">г. Минск, ул. Максима Богдановича,<br>153б, (интерьер-галерея VIESSMAN),<br>инсталляция 205</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="breadcrumbs-wrapper">
+		<ul class="breadcrumbs">
+				<li class="breadcrumbs__item">Главная</li>
+				<li class="breadcrumbs__item">Аудио-видео мультирум</li>
+				<li class="breadcrumbs__item">Акустические системы</li>
+				<li class="breadcrumbs__item">Акустика центрального канала</li>
+		</ul>
+		<div class="breadcrumbs__result">
+			<h1>Акустика центрального канала</h1>
+		</div>
+	</div>
+				<div class="filters_mobile-wrapper">
+			<div class="filters_mobile-1">Акустические системы и длинное название<div></div></div>
+			<div class="filters_mobile-2">Сортировка и фильтры<div></div></div>
+		</div>
+	<section class="catalog-container">
+		<div class="sidebar">
+			<div class="category">
+				<div class="category__title">Категория</div>
+				<div class="category__list">
+					<div class="category__list-item"><p>Hi-Fi и Hi-End системы</p><img src="img/icons/nextcategory.png"></div>
+					<div class="category__list-item"><p>AV-мебель</p><img src="img/icons/nextcategory.png"></div>
+					<div class="category__list-item"><p>Кабели и провода</p><img src="img/icons/nextcategory.png"></div>
+					<div class="category__list-item"><p>Акустические системы</p><img src="img/icons/nextcategory.png">
+						<div class="subcategory__list">
+							<div class="subcategory__list-item"><p>Напольная акустика</p></div>
+							<div class="subcategory__list-item"><p>Активные сабвуферы</p></div>
+							<div class="subcategory__list-item"><p>Акустика центрального канала</p></div>
+						</div>
+					</div>
+					<div class="category__list-item"><p>Домашние кинотеатры</p><img src="img/icons/nextcategory.png"></div>
+					<div class="category__list-item"><p>Аудио-видео мультирум</p><img src="img/icons/nextcategory.png"></div>
+				</div>
+			</div>
+
+			<div class="filters-wrapper">
+				<div class="filters">
+
+					<div class="filters__item_full">
+						<div class="filters-title">Цена<img src="img/icons/downfilter.png" class="filters__item-config"></div>
+
+					<div class="filters__item">
+						<div><input type="range" multiple min="100" max="1000" class="price-range"></div>
+						<div><span class="min-price">0</span><span>—</span><span class="max-price">0</span></div>
+					</div>
+				</div>
+
+					<div class="filters__item_full">
+						<div class="filters-title">Бренд<img src="img/icons/downfilter.png" class="filters__item-config"></div>
+
+					<div class="filters__item">
+						<p><input type="checkbox" name="">Arcam</p>
+						<p><input type="checkbox" name="">Denon</p>
+						<p><input type="checkbox" name="">Cambridge Audio</p>
+						<p><input type="checkbox" name="">Integra</p>
+					</div>
+				</div>
+
+					<div class="filters__item_full">
+						<div class="filters-title">Цвет<img src="img/icons/downfilter.png" class="filters__item-config"></div>
+					<div class="filters__item">	
+						<p><input type="checkbox" name="">Белый</p>
+						<p><input type="checkbox" name="">Серебристый</p>
+						<p><input type="checkbox" name="">Серебристый / золотистый</p>
+						<p><input type="checkbox" name="">Черный</p>
+						<p><input type="checkbox" name="">Дерево</p>
+						<p><input type="checkbox" name="">Прозрачный</p>						
+					</div>
+				</div>
+
+					<div class="filters__item_full">
+						<div class="filters-title">Тип<img src="img/icons/downfilter.png" class="filters__item-config"></div>
+					<div class="filters__item">
+					</div>
+						
+					</div>
+				</div>
+				<div class="filters__results">
+					<div class="results-number">Найдено 0 товаров</div>
+					<button class="clear-filters"><a href="">Очистить все фильтры</a></button>
+				</div>
+			</div>
+		</div>
+		<div class="catalog-wrapper">
+			<div class="catalog-settings">
+				<div class="sorting-wrapper">
+					<div class="sorting">
+						<div class="sorting-option">Сортировать по:</div>
+						<div class="sorting__item">Популярности</div>
+						<div class="sorting__item">Цене</div>
+						<div class="sorting__item">Скидке</div>
+						<div><img src="img/icons/arrow.png" style="margin-left: 1em;"></div>
+					</div>
+					<div class="view-options">
+						<div>На странице:</div>
+						<div><input type="number" min="1" max="16"></div> 
+						<div><img src="img/icons/grey-grid.png"></div>
+						<div><img src="img/icons/grey-rows.png"></div>
+					</div>
+					
+				</div>
+				<div class="filters-tags">
+					<div class="filters-tag"><span>Brand</span><img class="delete-brand" src="img/icons/small.png"></div>
+					<div class="filters-tag"><span>Brand</span><img class="delete-brand" src="img/icons/small.png"></div>
+					<button class="clear-filters"><a href="">Сбросить фильтры</a></button>
+				</div>
+				
+				
+
+			</div>
+			<div class="catalog_rows">
+
+				<div class="catalog__item catalog__item_rows">
+					<div>	<div class="catalog__item-img"><img src="img/catalog-item.png"></div>
+					<div class="record-player"><span><img src="img/icons/play.png"></span><span>послушать</span></div> </div>
+					<div class="catalog__item-description catalog__item-description_rows">
+						<div class="catalog__item-name catalog__item-name_rows">
+							<p class="catalog__item-type">AV ресивер</p>
+							<p class="catalog__item-model">Denon AVR-X1500H</p>
+						</div>
+						<div class="catalog__item-specification_rows">Характеристика товара</div>
+					</div>
+					<div class="catalog__item-price catalog__item-price_rows"><span style="font-size: 36px">2590<br></span>руб./штука</div>
+				</div>
+
+				<div class="catalog__item catalog__item_rows">
+					<div>	<div class="catalog__item-img"><img src="img/catalog-item.png"></div>
+					<div class="record-player"><span><img src="img/icons/play.png"></span><span>послушать</span></div> </div>
+					<div class="catalog__item-description catalog__item-description_rows">
+						<div class="catalog__item-name catalog__item-name_rows">
+							<p class="catalog__item-type">AV ресивер</p>
+							<p class="catalog__item-model">Denon AVR-X1500H</p>
+						</div>
+						<div class="catalog__item-specification_rows">Характеристика товара</div>
+					</div>
+					<div class="catalog__item-price catalog__item-price_rows"><span style="font-size: 36px">2590<br></span>руб./штука</div>
+				</div>
+
+				<div class="catalog__item catalog__item_rows">
+					<div>	<div class="catalog__item-img"><img src="img/catalog-item.png"></div>
+					<div class="record-player"><span><img src="img/icons/play.png"></span><span>послушать</span></div> </div>
+					<div class="catalog__item-description catalog__item-description_rows">
+						<div class="catalog__item-name catalog__item-name_rows">
+							<p class="catalog__item-type">AV ресивер</p>
+							<p class="catalog__item-model">Denon AVR-X1500H</p>
+						</div>
+						<div class="catalog__item-specification_rows">Характеристика товара</div>
+					</div>
+					<div class="catalog__item-price catalog__item-price_rows"><span style="font-size: 36px">2590<br></span>руб./штука</div>
+				</div>
+
+				<div class="catalog__item catalog__item_rows">
+					<div>	<div class="catalog__item-img"><img src="img/catalog-item.png"></div>
+					<div class="record-player"><span><img src="img/icons/play.png"></span><span>послушать</span></div> </div>
+					<div class="catalog__item-description catalog__item-description_rows">
+						<div class="catalog__item-name catalog__item-name_rows">
+							<p class="catalog__item-type">AV ресивер</p>
+							<p class="catalog__item-model">Denon AVR-X1500H</p>
+						</div>
+						<div class="catalog__item-specification_rows">Характеристика товара</div>
+					</div>
+					<div class="catalog__item-price catalog__item-price_rows"><span style="font-size: 36px">2590<br></span>руб./штука</div>
+				</div>
+
+				
+
+			</div>
+			<div class="pagination-wrapper">
+				<div class="pagination">
+				<div><a href=""><img src="img/icons/page_prev.png"></a></div>
+				<div><button class="pagination__button pagination__button_active"><a href="">1</a></button></div>
+				<div><button class="pagination__button"><a href="">2</a></button></div>
+				<div><button class="pagination__button"><a href="">3</a></button></div>
+				<div><a href=""><img src="img/icons/page_next.png"></a></div>
+                </div>
+			</div>
+		</div>
+
+	</section>
+
+
+	<section class="articles">
+		<div class="articles__content">
+			<div class="articles__item">
+				<div class="articles__pic-container"><img src="img/solution-item.png"></div>
+				<div class="articles__item-text">Как выбрать аппаратуру для домашнего кинотеатра и не ошибиться</div>
+				<div class="articles__date">1 февраля 2019</div>
+			</div>
+			<div class="articles__item">
+				<div class="articles__pic-container"><img src="img/solution-item.png"></div>
+				<div class="articles__item-text">Как выбрать аппаратуру для домашнего кинотеатра и не ошибиться</div>
+				<div class="articles__date">1 февраля 2019</div>
+			</div>
+			<div class="articles__item">
+				<div class="articles__pic-container"><img src="img/solution-item.png"></div>
+				<div class="articles__item-text">Как выбрать аппаратуру для домашнего кинотеатра и не ошибиться</div>
+				<div class="articles__date">1 февраля 2019</div>
+			</div>
+
+		</div>
+		<div class="articles-link"><a href="">Читать все статьи</a></div>
+	</section>
+
+
+	<section class="solutions">
+		<div class="solutions-title">Готовые решения</div>
+		<div class="solutions__content">
+			<div class="solutions__item">
+				<div class="solutions__pic-container"><img src="img/solution-item.png"></div>
+				<div class="solutions__item-text">Как выбрать аппаратуру для домашнего кинотеатра и не ошибиться</div>
+				<div class="solutions__date">1 февраля 2019</div>
+			</div>
+			<div class="solutions__item">
+				<div class="solutions__pic-container"><img src="img/solution-item.png"></div>
+				<div class="solutions__item-text">Как выбрать аппаратуру для домашнего кинотеатра и не ошибиться</div>
+				<div class="solutions__date">1 февраля 2019</div>
+			</div>
+			<div class="solutions__item">
+				<div class="solutions__pic-container"><img src="img/solution-item.png"></div>
+				<div class="solutions__item-text">Как выбрать аппаратуру для домашнего кинотеатра и не ошибиться</div>
+				<div class="solutions__date">1 февраля 2019</div>
+			</div>
+
+		</div>
+		<div class="solutions-link"><a href="">Смотреть все решения</a></div>
+	</section>
+
+
+
+	<footer class="footer-catalog">
+		<div class="footer__contacts">
+
+		<div class="footer__number">
+			<p>+375 (29) 669 10 69</p>
+			<p>8 017 293 39 98 (факс)</p>
+		</div>
+
+			<div>
+				<p>ул. Богдановича, д. 153Б, офис 205</p>
+				<p>info@hifiaudio.by</p>
+			</div>
+
+		</div>
+		<div class="footer__hifi">
+			<p>2018 HiFiAudio.by</p>
+			<p>Акустические системы</p>
+		</div>
+
+	</footer>
+
+
+	<footer class="footer-catalog_mobile">
+		<div class="footer__item">
+			<p>ул. Богдановича, д. 153Б, офис 205</p>
+			<p>info@hifiaudio.by</p>
+		</div>
+	<div class="footer__item">
+		<p>2018 HiFiAudio.by</p>
+		<p>Акустические системы</p>
+	</div>
+
+	<div class="footer__item">
+		<p>+375 (29) 669 10 69</p>
+		<p>8 017 293 39 98 (факс)</p>
+	</div>
+</footer>
+
+
+		 <!-- popup товар добавлен -->
+
+	 <div id="popup-added" class="popup">
+	<div class="popup-to-close"><img src="img/icons/closedark.png"></div>
+	<div class="popup-title">Товар добавлен в заказ. Товаров в корзине: </div>
+	<div class="popup__buttons">
+		<div><button class="popup__btn-1" style="width: 277px;"><a href="">Перейти к оформлению заказа</a></button></div>
+		<div><button class="popup__btn-2"><a href="">Вернуться к сайту</a></button></div>
+	</div>
+	<div class="popup__text">Вместе с этим товаром часто покупают:</div>
+	<div class="wrapper">
+		<div class="catalog__item catalog__item_shadow">
+			<div class="catalog__item-img"><img src="img/catalog-item.png"></div>
+			<div class="catalog__item-description">
+				<div class="record-player"><span><img src="img/icons/play.png"></span><span>послушать</span></div>
+				<div class="catalog__item-name">
+					<p class="catalog__item-type">AV ресивер</p>
+					<p class="catalog__item-model">Denon AVR-X1500H</p>
+				</div>
+				<div class="stock"><img src="img/icons/check_green.png">В наличии</div>
+				<div class="catalog__item-price"><span style="font-size: 24px">2590 </span>руб./штука</div>
+			</div>
+		</div>
+
+		<div class="catalog__item catalog__item_shadow">
+			<div class="catalog__item-img"><img src="img/catalog-item.png"></div>
+			<div class="catalog__item-description">
+				<div class="record-player"><span><img src="img/icons/play.png"></span><span>послушать</span></div>
+				<div class="catalog__item-name">
+					<p class="catalog__item-type">AV ресивер</p>
+					<p class="catalog__item-model">Denon AVR-X1500H</p>
+				</div>
+				<div class="stock"><img src="img/icons/check_green.png">В наличии</div>
+				<div class="catalog__item-price"><span style="font-size: 24px">2590 </span>руб./штука</div>
+			</div>
+		</div>
+
+		<div class="catalog__item catalog__item_shadow">
+			<div class="catalog__item-img"><img src="img/catalog-item.png"></div>
+			<div class="catalog__item-description">
+				<div class="record-player"><span><img src="img/icons/play.png"></span><span>послушать</span></div>
+				<div class="catalog__item-name">
+					<p class="catalog__item-type">AV ресивер</p>
+					<p class="catalog__item-model">Denon AVR-X1500H</p>
+				</div>
+				<div class="stock"><img src="img/icons/check_green.png">В наличии</div>
+				<div class="catalog__item-price"><span style="font-size: 24px">2590 </span>руб./штука</div>
+			</div>
+		</div>
+
+		<div class="catalog__item catalog__item_shadow">
+			<div class="catalog__item-img"><img src="img/catalog-item.png"></div>
+			<div class="catalog__item-description">
+				<div class="record-player"><span><img src="img/icons/play.png"></span><span>послушать</span></div>
+				<div class="catalog__item-name">
+					<p class="catalog__item-type">AV ресивер</p>
+					<p class="catalog__item-model">Denon AVR-X1500H</p>
+				</div>
+				<div class="stock"><img src="img/icons/check_green.png">В наличии</div>
+				<div class="catalog__item-price"><span style="font-size: 24px">2590 </span>руб./штука</div>
+			</div>
+		</div>
+	</div>
+</div> 
+
+
+
+ <!-- popup success -->
+
+ <div class="popup-success popup">
+	<div class="popup-to-close"><img src="img/icons/closedark.png"></div>
+	<div class="popup-success-pic-wrapper"><img src="img/icons/success.png"></div>
+    <div class="popup-title">Мы получили Ваше сообщение!</div>
+	<div class="popup__buttons"><button class="popup__btn-1" style="width: 277px;"><a href="">Вернуться к сайту</a></button></div>
+</div>
+
+<!-- категории mobile -->
+
+<div class="category_mobile">
+	<div class="popup-to-close"><img src="img/icons/closedark.png"></div>
+	<div class="category__list-item"><p>Hi-Fi и Hi-End системы</p><img src="img/icons/nextcategory.png"></div>
+	<div class="category__list-item"><p>AV-мебель</p><img src="img/icons/nextcategory.png"></div>
+	<div class="category__list-item"><p>Кабели и провода</p><img src="img/icons/nextcategory.png"></div>
+	<div class="category__list-item"><p>Акустические системы</p><img src="img/icons/nextcategory.png"></div>
+	<div class="category__list-item"><p>Домашние кинотеатры</p><img src="img/icons/nextcategory.png"></div>
+	<div class="category__list-item"><p>Аудио-видео мультирум</p><img src="img/icons/nextcategory.png"></div>
+</div>
+
+<div class="subcategory_mobile">
+	<div class="popup-to-close"><img src="img/icons/closedark.png"></div>
+	<div class="subcategory__list-item"><p>Hi-Fi и Hi-End системы 1</p><img src="img/icons/nextcategory.png"></div>
+	<div class="subcategory__list-item"><p>Hi-Fi и Hi-End системы 2</p><img src="img/icons/nextcategory.png"></div>
+	<div class="subcategory__list-item"><p>Hi-Fi и Hi-End системы 3</p></div>
+	<div class="subcategory__list-item"><p>Hi-Fi и Hi-End системы 4</p></div>
+	<div class="subcategory__list-item"><p>Hi-Fi и Hi-End системы 5</p></div>
+	<div class="subcategory__list-item"><p>Hi-Fi и Hi-End системы 6</p></div>
+</div>
+
+<!-- sorting и filters mobile -->
+
+<div class="fs_mobile">
+	<div class="popup-to-close"><img src="img/icons/closedark.png"></div>
+	<div>
+		<div class="fs_mobile-wrapper">
+			<div class="filters_mobile">Фильтры</div>
+			<div class="sorting_mobile">Сортировка</div>
+		</div>
+
+		<div class="sorting_mobile-wrapper hidden">
+			<div class="sorting_mobile-title">Сортировать по:</div>
+			<div class="sorting_mobile-items">
+				<div><input type="radio" name="sort" id="sort_popular">Сначала популярные</div>
+				<div><input type="radio" name="sort" id="sort_unpopular">Сначала непопулярные</div>
+				<div><input type="radio" name="sort" id="sort_cheep">Сначала дешевые</div>
+				<div><input type="radio" name="sort" id="sort_expensive">Сначала дорогие</div>
+				<div><input type="radio" name="sort" id="sort_new">Сначала новые</div>
+			</div>
+		</div>
+		<div class="filters-wrapper">
+			<div class="filters">
+
+				<div class="filters__item_full">
+					<div class="filters-title">Бренд<img src="img/icons/downfilter.png" class="filters__item-config"></div>
+
+					<div class="filters__item">
+						<p><input type="checkbox" name="">Arcam</p>
+						<p><input type="checkbox" name="">Denon</p>
+						<p><input type="checkbox" name="">Cambridge Audio</p>
+						<p><input type="checkbox" name="">Integra</p>
+					</div>
+				</div>
+
+				<div class="filters__item_full">
+					<div class="filters-title">Цвет<img src="img/icons/downfilter.png" class="filters__item-config"></div>
+					<div class="filters__item">	
+						<p><input type="checkbox" name="">Белый</p>
+						<p><input type="checkbox" name="">Серебристый</p>
+						<p><input type="checkbox" name="">Серебристый / золотистый</p>
+						<p><input type="checkbox" name="">Черный</p>
+						<p><input type="checkbox" name="">Дерево</p>
+						<p><input type="checkbox" name="">Прозрачный</p>						
+					</div>
+				</div>
+				<div class="filters__item_full">
+					<div class="filters-title">Тип<img src="img/icons/downfilter.png" class="filters__item-config"></div>
+					<div class="filters__item">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="fs_mobile__buttons">
+			<div><button class="fs_mobile__btn-1 popup__btn-2"><a href="">Отменить</a></button></div>
+			<div><button class="fs_mobile__btn-2 popup__btn-1"><a href="">Применить</a></button></div>
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>
