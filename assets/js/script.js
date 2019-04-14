@@ -128,9 +128,13 @@ $(document).ready(function() {
   });
 }); // кнопка заказать звонок
 
-  $(document).ready(function() {
+$(document).ready(function() {
   $('.popup-consultation__btn').click(function() {
     $('#popup-consultation').toggleClass('hidden');
     $('.popup-success').toggleClass('open');
   });
 });  // мы получили ваше сообщение после заказа звонка
+
+$(document).ready(function() {
+  alert('Action!');
+});
